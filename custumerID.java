@@ -4,6 +4,7 @@ class custumerID
 	public static void main(String[] yogi)
 	{
 		int n;
+		int count=0;
 		Scanner sc=new Scanner(System.in);
 		System.out.println("enter the total number of custumerID: ");
 		n= sc.nextInt();
