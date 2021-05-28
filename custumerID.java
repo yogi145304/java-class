@@ -17,7 +17,15 @@ class custumerID
 		for(int i=0;i<n;i++)
 		{
 			if(arr[i].length()<6)
-			  System.out.print(arr[i]+" ");
+			{
+				 System.out.print(arr[i]+" ");
+				 count++;
+			}
+			else
+				continue;
+			 
 		}
+		if(count==0)
+			System.out.println(0);
 	}
 }
